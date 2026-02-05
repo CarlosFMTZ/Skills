@@ -1,0 +1,39 @@
+{
+  "name": "@openclaw/social-content-skill",
+  "version": "0.1.0",
+  "description": "OpenClaw skill for social content - automatic generation, engagement, and platform integration",
+  "keywords": [
+    "openclaw",
+    "social-content",
+    "ai-agents",
+    "social-media",
+    "content-generation",
+    "skill"
+  ],
+  "homepage": "https://github.com/yourusername/openclaw_social_content#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/openclaw_social_content/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/openclaw_social_content.git"
+  },
+  "license": "AGPL-3.0",
+  "author": "Your Name / Your Organization",
+  "type": "module",
+  "files": [
+    "SKILL.md",
+    "INSTALL.md",
+    "README.md",
+    "scripts/"
+  ],
+  "bin": {
+    "openclaw-social-skill": "./scripts/social-tools.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
